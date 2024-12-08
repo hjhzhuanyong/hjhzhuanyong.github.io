@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的静态网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .image-container {
+            max-width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 100%; /* 设置图片的宽度为容器的100% */
+            max-width: 600px; /* 最大宽度为600px */
+            height: auto; /* 自适应高度 */
+            border-radius: 8px; /* 圆角效果 */
+            border: 2px solid #ddd; /* 边框 */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 网站头部 -->
+    <header>
+        <h1>欢迎来到我的网站</h1>
+    </header>
+
+    <!-- 网站内容部分 -->
+    <div class="content">
+        <h2>左边是好豪右边是坏豆</h2>
+
+        <!-- 图片展示区域 -->
+        <div class="image-container">
+            <img src="images/myimage.jpg" alt="一张漂亮的风景图片">
+        </div>
+    </div>
+
+    <!-- 网站底部 -->
+    <footer>
+        <p>&copy; 2024 我的静态网站</p>
+    </footer>
+
+</body>
+</html>
